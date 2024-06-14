@@ -1,16 +1,49 @@
-# marvel_heroes
+## 🦸‍♂️ Novo Projeto em Flutter! 🚀
 
-A new Flutter project.
+Estou animado para compartilhar meu mais recente projeto de prática deliberada! 🎉
 
-## Getting Started
+📱 App Mobile com Flutter: Desenvolvi um aplicativo incrível utilizando o Flutter, que consome a API da Marvel! 🌟
 
-This project is a starting point for a Flutter application.
+### 🔍 Funcionalidades:
 
-A few resources to get you started if this is your first Flutter project:
+* Busca de personagens da Marvel 🦸‍♀️🦹‍♂
+️
+* Detalhes completos dos personagens 📚
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Interface intuitiva e responsiva 📲
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 💡 Tecnologias Utilizadas:
+
+* Flutter para  mobile 📱
+
+* API da Marvel para dados dos personagens 🔗
+
+## Models
+### Character
+
+#### Atributos
+
+- `id`: int
+- `name`: String
+- `description`: String
+- `thumbnail`: Thumbnail
+- `comics`: Comic
+
+### Thumbnail
+
+#### Atributos
+
+- `path`: String
+- `extension`: String
+
+#### Metodos
+
+- `getThumbnail(path, extension)`
+
+### Comic
+- `id`: int
+- `title`: String
+- `digitalId`: String
+- `format`: String
+- `paginas`: int
+- `thumbnail`: Thumbnail
